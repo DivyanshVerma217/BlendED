@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border m-0 p-0;
+  }
+}
+
+@layer components {
+
+  .borders {
+    @apply border-gray-500 p-1 my-2 items-center justify-center rounded;
+  }
+
+  .outputs {
+    @apply flex items-center justify-center gap-2 mb-4 p-2;
+  }
+
+  .content {
+    @apply inline-block truncate w-40 md:w-64;
+  }
+
+
+}
